@@ -9,10 +9,17 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.125.2</generator>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2024 12:22:41 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CISCN_2024</title>
+      <link>http://localhost:1313/posts/writeups/ciscn_2024/</link>
+      <pubDate>Mon, 20 May 2024 12:22:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/writeups/ciscn_2024/</guid>
+      <description>俺是弱🐔PWN手</description>
+    </item>
     <item>
       <title>W&amp;MCTF pwn writeups</title>
       <link>http://localhost:1313/posts/writeups/wmctf/</link>
