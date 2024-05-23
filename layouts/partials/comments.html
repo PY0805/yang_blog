@@ -9,7 +9,7 @@
     <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js"></script>
     <script>
         twikoo.init({
-            envId: "https://vercel-pl9d9slex-y4ngs-projects-4c8a72f6.vercel.app/",  //这里填写自己的envId
+            envId:  ${{ secrets.COMMENTS }},  //这里填写自己的envId
             el: "#tcomment",
             lang: 'zh-CN',
             region: '',  //我的区域是广州，可以不填，默认是ap-shanghai
