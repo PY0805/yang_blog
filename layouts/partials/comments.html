@@ -8,8 +8,9 @@
     <div id="tcomment"></div>
     <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js"></script>
     <script>
+        var TWIKOO_ENV_ID = "{{ .Env.TWIKOO_ENV_ID }}";
         twikoo.init({
-            envId: "${{ .Env.TWIKOO_ENV_ID }}",  //这里填写自己的envId
+            envId: TWIKOO_ENV_ID,  //这里填写自己的envId
             el: "#tcomment",
             lang: 'zh-CN',
             region: '',  //默认是ap-shanghai
