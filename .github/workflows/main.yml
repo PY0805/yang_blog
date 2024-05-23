@@ -24,7 +24,11 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          echo "TWIKOO_ENV_ID=${{ secrets.TWIKOO_ENV_ID }}" >> .env
+          hugo --minify
+        env:
+          TWIKOO_ENV_ID: ${{ secrets.TWIKOO_ENV_ID }}
 
       - name: Deploy
         uses: burnett01/rsync-deployments@7.0.1

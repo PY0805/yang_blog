@@ -15,6 +15,7 @@ minify:
 params:
   twikoo:
     version: 1.6.32
+    envId : env "TWIKOO_ENV_ID"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Y4ng's blog,pwn,ctf,网安"
   keywords: [Blog, CTF, Pwn]
