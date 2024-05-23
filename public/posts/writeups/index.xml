@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>writeups on Y4ng&#39;s blog</title>
-    <link>http://localhost:41269/posts/writeups/</link>
+    <link>http://localhost:36129/posts/writeups/</link>
     <description>Recent content in writeups on Y4ng&#39;s blog</description>
     <image>
       <title>Y4ng&#39;s blog</title>
-      <url>http://localhost:41269/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:41269/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:36129/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:36129/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.126.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 20 May 2024 12:22:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:41269/posts/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:36129/posts/writeups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CISCN_2024</title>
-      <link>http://localhost:41269/posts/writeups/ciscn_2024/</link>
+      <link>http://localhost:36129/posts/writeups/ciscn_2024/</link>
       <pubDate>Mon, 20 May 2024 12:22:41 +0800</pubDate>
-      <guid>http://localhost:41269/posts/writeups/ciscn_2024/</guid>
+      <guid>http://localhost:36129/posts/writeups/ciscn_2024/</guid>
       <description>俺是弱🐔PWN手</description>
     </item>
     <item>
       <title>W&amp;MCTF pwn writeups</title>
-      <link>http://localhost:41269/posts/writeups/wmctf/</link>
+      <link>http://localhost:36129/posts/writeups/wmctf/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:41269/posts/writeups/wmctf/</guid>
+      <guid>http://localhost:36129/posts/writeups/wmctf/</guid>
       <description>抛开libc不谈，调偏移就是耍流氓😣</description>
     </item>
   </channel>

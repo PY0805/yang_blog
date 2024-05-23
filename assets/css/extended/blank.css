@@ -26,6 +26,8 @@ body {
     font-family: 'JetBrains Mono NL', sans-serif;
     font-size: 1.2rem;
     max-height: 40rem;
+    max-height: 52em; /* 设置代码块的最大高度为父元素字体大小的xx倍 */
+    overflow: auto; /* 当代码块内容超出最大高度时，显示滚动条 */
 }
 
 /* 主页背景图片 */

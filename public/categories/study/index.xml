@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Study on Y4ng&#39;s blog</title>
-    <link>http://localhost:41269/categories/study/</link>
+    <link>http://localhost:36129/categories/study/</link>
     <description>Recent content in Study on Y4ng&#39;s blog</description>
     <image>
       <title>Y4ng&#39;s blog</title>
-      <url>http://localhost:41269/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:41269/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:36129/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:36129/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.126.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 22 May 2024 16:34:26 +0800</lastBuildDate>
-    <atom:link href="http://localhost:41269/categories/study/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:36129/categories/study/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Protobuf pwn</title>
-      <link>http://localhost:41269/posts/pwn/protobuf/</link>
+      <link>http://localhost:36129/posts/pwn/protobuf/</link>
       <pubDate>Wed, 22 May 2024 16:34:26 +0800</pubDate>
-      <guid>http://localhost:41269/posts/pwn/protobuf/</guid>
+      <guid>http://localhost:36129/posts/pwn/protobuf/</guid>
       <description>感觉不如JSON🤷‍♂️</description>
     </item>
   </channel>

@@ -1,3 +1,40 @@
 {{- /* Footer custom content area start */ -}}
-{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
+{{- /* Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+
+{{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons")) }}
+<script>
+// 实现代码块和行号同步滚动。
+// 在页面加载完毕后匹配出代码块和行号对应的容器并绑定滚动事件
+window.addEventListener('load', function () {
+  // 获取代码块容器和行号容器的元素
+  var codeContainers = document.querySelectorAll('.highlight code[class^="language-"]');
+  var lineNumbersContainers = document.querySelectorAll('.highlight code[class^="hljs "]');
+
+  // 添加滚动事件监听器
+  var isScrollSyncing = false; // 标志位，指示是否正在进行滚动同步操作
+
+  codeContainers.forEach(function (container, index) {
+    container.addEventListener('scroll', function () {
+      if (!isScrollSyncing) {
+        isScrollSyncing = true;
+        // 将行号容器的滚动位置设置为相同的值
+        lineNumbersContainers[index].scrollTop = container.scrollTop;
+        isScrollSyncing = false;
+      }
+    });
+  });
+
+  lineNumbersContainers.forEach(function (container, index) {
+    container.addEventListener('scroll', function () {
+      if (!isScrollSyncing) {
+        isScrollSyncing = true;
+        // 将代码块容器的滚动位置设置为相同的值
+        codeContainers[index].scrollTop = container.scrollTop;
+        isScrollSyncing = false;
+      }
+    });
+  });
+});
+</script>
+{{- end }}
