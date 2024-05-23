@@ -45,6 +45,7 @@ cover:
 ## Introduction
 
 ~~Protocol Buffers are language-neutral, platform-neutral extensible mechanisms for serializing structured data.~~
+
 google发明的一个数据格式，平台兼容性和语言兼容性都非常好，能够将数据结构体转换成bytes形式发送，也能将bytes流反序列化为结构体（可是👨选择json
 
 

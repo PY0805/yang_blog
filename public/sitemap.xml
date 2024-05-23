@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/writeups/ciscn_2024/</loc>
+    <loc>https://www.y4ng.cn/posts/writeups/ciscn_2024/</loc>
     <lastmod>2024-05-20T12:22:41+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.y4ng.cn/categories/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://www.y4ng.cn/posts/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/protobuf/</loc>
+    <loc>https://www.y4ng.cn/tags/protobuf/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/pwn/protobuf/</loc>
+    <loc>https://www.y4ng.cn/posts/pwn/protobuf/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pwn/</loc>
+    <loc>https://www.y4ng.cn/tags/pwn/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/pwn/</loc>
+    <loc>https://www.y4ng.cn/categories/pwn/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/pwn/</loc>
+    <loc>https://www.y4ng.cn/posts/pwn/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/study/</loc>
+    <loc>https://www.y4ng.cn/categories/study/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.y4ng.cn/tags/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.y4ng.cn/</loc>
     <lastmod>2024-05-22T16:34:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ctf/</loc>
+    <loc>https://www.y4ng.cn/tags/ctf/</loc>
     <lastmod>2024-05-20T12:22:41+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/writeups/</loc>
+    <loc>https://www.y4ng.cn/posts/writeups/</loc>
     <lastmod>2024-05-20T12:22:41+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/writeups/</loc>
+    <loc>https://www.y4ng.cn/tags/writeups/</loc>
     <lastmod>2024-05-20T12:22:41+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/writeups/</loc>
+    <loc>https://www.y4ng.cn/categories/writeups/</loc>
     <lastmod>2024-05-20T12:22:41+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/writeups/wmctf/</loc>
+    <loc>https://www.y4ng.cn/posts/writeups/wmctf/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.y4ng.cn/about/</loc>
     <lastmod>2021-11-06T14:57:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
+    <loc>https://www.y4ng.cn/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test/</loc>
+    <loc>https://www.y4ng.cn/test/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://www.y4ng.cn/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://www.y4ng.cn/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://www.y4ng.cn/links/</loc>
   </url>
 </urlset>
