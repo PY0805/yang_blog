@@ -22,11 +22,11 @@ jobs:
         with:
           hugo-version: '0.122.0'
           extended: true
+      - name: Set up environment variables
+        run: echo "TWIKOO_ENV_ID=${{ secrets.TWIKOO_ENV_ID }}" >> $GITHUB_ENV
 
       - name: Build
-        run: |
-          echo "TWIKOO_ENV_ID=${{ secrets.TWIKOO_ENV_ID }}" >> .env
-          hugo --minify
+        run: hugo --minify
         env:
           TWIKOO_ENV_ID: ${{ secrets.TWIKOO_ENV_ID }}
 
