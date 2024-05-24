@@ -1,5 +1,5 @@
 ---
-title: "🙋🏻‍♂️关于"
+title: "关于"
 layout: about
 draft: false # 是否为草稿
 comments: false

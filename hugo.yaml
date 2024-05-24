@@ -111,25 +111,24 @@ menu:
   main:
     - identifier: search
       name: search
-      url: /search/
+      url: search
       weight: 1
-  
     - identifier: posts
       name: posts
-      url: /posts/
-      weight: 5
+      url: posts
+      weight: 2
     - identifier: categories
       name: categories
-      url: /categories/
-      weight: 10
+      url: categories
+      weight: 3
     - identifier: about
       name: about
-      pageRef: /about/
-      weight: 30
+      pageRef: about
+      weight: 4
     - identifier: links
       name: friends
-      url: /links/
-      weight: 60
+      url: links
+      weight: 5
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
