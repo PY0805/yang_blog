@@ -24,9 +24,9 @@ body {
 /* ========== 代码字体：JetBrains Mono ========== */
 .post-content pre, code {
     font-family: 'JetBrains Mono NL', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     max-height: 40rem;
-    max-height: 52em; /* 设置代码块的最大高度为父元素字体大小的xx倍 */
+    /*max-height: 52em; /* 设置代码块的最大高度为父元素字体大小的xx倍 */
     overflow: auto; /* 当代码块内容超出最大高度时，显示滚动条 */
 }
 

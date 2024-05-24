@@ -20,8 +20,8 @@ cover:
     relative: false
 ---
 
-# Introduction
 一个PWN手+一个弱🐔吉他手
+
 目前已停止练琴一月，开摆！
 
 
