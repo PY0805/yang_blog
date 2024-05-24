@@ -22,8 +22,9 @@ jobs:
         with:
           hugo-version: '0.122.0'
           extended: true
-      - name: Set up environment variables
-        run: echo "TWIKOO_ENV_ID=${{ secrets.TWIKOO_ENV_ID }}" >> $GITHUB_ENV
+      - name: Replace envId in HTML
+        run: |
+            sed -i 's/PLACEHOLDER_FOR_ENV_ID/${{ secrets.TWIKOO_ENV_ID }}/g' layouts/partials/comments.html
 
       - name: Build
         run: hugo --minify
