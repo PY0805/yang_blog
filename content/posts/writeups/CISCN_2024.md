@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
 怎么是用seccomp开的沙箱啊，下次记得用prctl才不会有这么多释放的heap内存，推荐文章[seccomp沙箱](https://www.anquanke.com/post/id/208364#h2-2)
 
-![heap memory](ezheap1.png)
+![heap memory](image1.png)
 
 ### 题目简介
 
