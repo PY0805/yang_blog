@@ -49,6 +49,7 @@ exploit point: stack overflow
 
 golang编写的一道栈题，有一个无限制的输入，通过gdb动调找出偏移量，覆盖ret地址为main_main2，开启一个bash
 
+
 ### exp
 
 ~~~python
@@ -158,6 +159,8 @@ if __name__ == "__main__":
 
 怎么是用seccomp开的沙箱啊，下次记得用prctl才不会有这么多释放的heap内存，推荐文章[seccomp沙箱](https://www.anquanke.com/post/id/208364#h2-2)
 
+![heap memory](ezheap1.png)
+
 ### 题目简介
 
 libc: 2.35
@@ -165,6 +168,13 @@ libc: 2.35
 exploit point: heap overflow
 
 借助空间中现存的heap，泄露出libc和heap地址，然后打house of apple2
+
+### 漏洞利用
+先分配一个size`0x60`的把tcache bin消耗空，然后从unsorted bin上分割一个size`0x60`的heap，用来泄漏libc
+![heap layout](image2.png)
+
+分配到small bin上面`0x30`size的heap，泄漏出堆块地址
+![heap layout](image3.png)
 
 ### exp
 
