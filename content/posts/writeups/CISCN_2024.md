@@ -173,7 +173,7 @@ exploit point: heap overflow
 先分配一个size`0x60`的把tcache bin消耗空，然后从unsorted bin上分割一个size`0x60`的heap，用来泄漏libc
 ![heap layout](image2.png)
 
-分配到small bin上面`0x30`size的heap，泄漏出堆块地址
+分配到small bin上面`0x40`size的heap，泄漏出堆块地址
 ![heap layout](image3.png)
 
 ### exp
