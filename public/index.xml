@@ -9,9 +9,9 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 May 2024 16:34:26 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:17:30 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CISCN_2024</title>
@@ -19,6 +19,13 @@
       <pubDate>Mon, 20 May 2024 12:22:41 +0800</pubDate>
       <guid>http://localhost:1313/posts/writeups/ciscn_2024/</guid>
       <description>俺是弱🐔PWN手</description>
+    </item>
+    <item>
+      <title>大四生活杂记</title>
+      <link>http://localhost:1313/posts/misc/2024_8-10_month/</link>
+      <pubDate>Fri, 15 Nov 2024 00:17:30 +0800</pubDate>
+      <guid>http://localhost:1313/posts/misc/2024_8-10_month/</guid>
+      <description>大四生活</description>
     </item>
     <item>
       <title>Protobuf pwn</title>
@@ -39,9 +46,9 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>一个PWN手+一个弱🐔吉他手
-目前已停止练琴一月，开摆！
-最喜欢发呆🤔和散步🚶‍♂️</description>
+      <description>&lt;p&gt;一个PWN手+一个弱🐔吉他手&lt;/p&gt;
+&lt;p&gt;目前已停止练琴一月，开摆！&lt;/p&gt;
+&lt;p&gt;最喜欢发呆🤔和散步🚶‍♂️&lt;/p&gt;</description>
     </item>
     <item>
       <title>🤝友链</title>
